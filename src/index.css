@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+
+.navbar-brand {
+	font-family: 'Bungee Inline', cursive;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+#cards {
+	margin-bottom: 3em;
+	padding-top: 0;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card {
+	flex-basis: 30%;
+	min-width: 18rem;
+	margin-bottom: 1.5rem;
+}
+
+.card-img {
+	object-fit: contain;
+	height: 10rem;
+}
+
+.cart-orderBtn {
+	text-align: right;
+}
+
+.cart-quantity {
+	min-width: 4rem;
+}
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+	.card {
+		margin-bottom: 1rem;
+	}
+}
+
+.link-logout {
+	cursor: pointer;
+}
+
+.link-logout:hover {
+	text-decoration: underline;
+}

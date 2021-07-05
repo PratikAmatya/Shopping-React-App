@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.brand {
+	font-family: 'Bungee Inline', cursive;
+	font-size: 2rem;
+}
+
+#mainDiv {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	background-color: #f7f7f7;
+	width: fit-content;
+	color: #292b2c;
+	text-align: center;
+	display: block;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.login,
+.register {
+	background: #141e30; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#243b55,
+		#141e30
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#243b55,
+		#141e30
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	width: 100vw;
+	height: 100vh;
+}
+
+.login-input {
+	font-size: 1rem;
+}
